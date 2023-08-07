@@ -1,0 +1,63 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:100% ;
+}
+
+.section-top{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/img1.jpg);
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+}
+
+
+.content {
+    position: absolute;
+    top: 33%;
+    left: 35%;
+}
+.content h1 {
+    color: burlywood;
+    font-size: xxx-large;
+}
+
+.content button {
+    font-size: x-large;
+    font-family: math;
+    color: black;
+    background-color: blue;
+    border: 0;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.content button:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+
+@keyframes change{
+    0%{
+        background-image: url(img/img1.jpg);
+    }
+    20%{
+        background-image: url(img/img2.jpg);
+    }
+    40%{
+        background-image: url(img/img3.jpg.crdownload);
+    }
+    80%{
+        background-image: url(img/img4.jpg.crdownload);
+    }
+    100%{
+        background-image: url(img/img5.jpg);
+    }
+}
